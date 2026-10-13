@@ -1,0 +1,390 @@
+{
+ "title": "Midway 1942: bước ngoặt Thái Bình Dương",
+ "brand": "HINTON MEDIA",
+ "music": "epic",
+ "duration_range": [
+  50,
+  62
+ ],
+ "media_dir": "",
+ "exclude_countries": [
+  "Portugal",
+  "Spain",
+  "Ireland",
+  "United Kingdom",
+  "France",
+  "Germany",
+  "Italy",
+  "Poland",
+  "Sweden",
+  "Norway",
+  "Finland",
+  "Denmark",
+  "Netherlands",
+  "Belgium",
+  "Switzerland",
+  "Austria",
+  "Czechia",
+  "Slovakia",
+  "Hungary",
+  "Romania",
+  "Bulgaria",
+  "Greece",
+  "Turkey",
+  "Ukraine",
+  "Belarus",
+  "Lithuania",
+  "Latvia",
+  "Estonia",
+  "Russia",
+  "Kazakhstan",
+  "Mongolia",
+  "India",
+  "Pakistan",
+  "Afghanistan",
+  "Iran",
+  "Iraq",
+  "Saudi Arabia",
+  "Egypt",
+  "Libya",
+  "Algeria",
+  "Morocco",
+  "Tunisia",
+  "Sudan",
+  "Ethiopia",
+  "Kenya",
+  "South Africa",
+  "Brazil",
+  "Argentina",
+  "Chile",
+  "Peru",
+  "Colombia",
+  "Mexico",
+  "Canada",
+  "Greenland",
+  "Iceland",
+  "Australia",
+  "New Zealand",
+  "Indonesia",
+  "Malaysia",
+  "Thailand",
+  "Myanmar",
+  "Vietnam",
+  "Laos",
+  "Cambodia",
+  "Philippines",
+  "Bangladesh",
+  "Nepal",
+  "Sri Lanka",
+  "Madagascar"
+ ],
+ "sat_regions": {},
+ "scenes": [
+  {
+   "name": "hook",
+   "type": "intro",
+   "to": [
+    -177.4,
+    28.2
+   ],
+   "R": 5200,
+   "title": "Bạn có biết?",
+   "text": "Bạn có biết? Chỉ trong một ngày tháng sáu năm 1942, Nhật Bản mất bốn tàu sân bay, và cục diện chiến tranh Thái Bình Dương đảo chiều hoàn toàn."
+  },
+  {
+   "name": "pacific",
+   "type": "map",
+   "cam": [
+    [
+     0,
+     -160,
+     22,
+     2.5
+    ],
+    [
+     0.4,
+     -172,
+     27,
+     5
+    ],
+    [
+     1,
+     -177,
+     28.2,
+     10
+    ]
+   ],
+   "title": "Tháng 6 1942",
+   "title_color": "orange",
+   "pins": [
+    {
+     "ll": [
+      -177.38,
+      28.21
+     ],
+     "at": 0.8,
+     "label": "Midway",
+     "color": "orange",
+     "dy": -70
+    }
+   ],
+   "sfx": [
+    {
+     "kind": "drum",
+     "at": 0.2
+    }
+   ],
+   "text": "Tháng mười hai năm 1941, Nhật tập kích Pearl Harbor. Sau đó quân Nhật tràn khắp Thái Bình Dương. Mục tiêu tiếp theo là đảo san hô Midway."
+  },
+  {
+   "name": "yamamoto",
+   "type": "image",
+   "file": "media/yamamoto.jpg",
+   "kb": {
+    "z": [
+     1.05,
+     1.3
+    ],
+    "fy": [
+     0.35,
+     0.28
+    ]
+   },
+   "title": "Yamamoto",
+   "title_color": "red",
+   "credit": "Isoroku Yamamoto · Public domain · Wikimedia Commons",
+   "sfx": [
+    {
+     "kind": "drum",
+     "at": 0.1
+    }
+   ],
+   "text": "Đô đốc Yamamoto muốn dùng Midway làm mồi, dụ các tàu sân bay Mỹ ra khơi rồi tiêu diệt chúng chỉ trong một trận."
+  },
+  {
+   "name": "approach",
+   "type": "map",
+   "cam": [
+    [
+     0,
+     -176,
+     29.5,
+     6
+    ],
+    [
+     0.4,
+     -177,
+     28.6,
+     12
+    ],
+    [
+     1,
+     -177.3,
+     28.3,
+     22
+    ]
+   ],
+   "hud": {
+    "year": "1942",
+    "caption": "Tấn công Midway",
+    "color": "red"
+   },
+   "armies": [
+    {
+     "from": [
+      -179.5,
+      30.2
+     ],
+     "to": [
+      -177.6,
+      28.6
+     ],
+     "at": 0.3,
+     "dur": 1.5,
+     "n": 30,
+     "color": "red",
+     "seed": 1,
+     "bend": 0.12,
+     "sfx": "whoosh"
+    },
+    {
+     "from": [
+      -174.0,
+      29.5
+     ],
+     "to": [
+      -176.8,
+      28.3
+     ],
+     "at": 0.7,
+     "dur": 1.4,
+     "n": 34,
+     "color": "blue",
+     "seed": 2,
+     "bend": -0.1,
+     "sfx": "whoosh"
+    }
+   ],
+   "pins": [
+    {
+     "ll": [
+      -177.38,
+      28.21
+     ],
+     "at": 1.6,
+     "label": "Midway",
+     "color": "gold",
+     "dy": -65
+    }
+   ],
+   "sfx": [
+    {
+     "kind": "drum",
+     "at": 0.2
+    },
+    {
+     "kind": "whoosh",
+     "at": 0.9
+    }
+   ],
+   "text": "Nhưng Mỹ đã phá mật mã JN hai lăm. Ba tàu sân bay Mỹ chờ sẵn phía đông bắc đảo."
+  },
+  {
+   "name": "strike",
+   "type": "map",
+   "cam": [
+    [
+     0,
+     -177.0,
+     28.4,
+     18
+    ],
+    [
+     1,
+     -177.3,
+     28.25,
+     40
+    ]
+   ],
+   "hud": {
+    "year": "4/6",
+    "caption": "Đòn quyết định",
+    "color": "gold"
+   },
+   "ships": [
+    {
+     "from": [
+      -176.0,
+      28.9
+     ],
+     "to": [
+      -177.4,
+      28.3
+     ],
+     "n": 8,
+     "color": "blue",
+     "size": 52,
+     "rot": 200
+    }
+   ],
+   "xstamps": [
+    {
+     "ll": [
+      -177.5,
+      28.35
+     ],
+     "at": "cháy"
+    },
+    {
+     "ll": [
+      -177.2,
+      28.05
+     ],
+     "at": "cháy"
+    }
+   ],
+   "sfx": [
+    {
+     "kind": "drum",
+     "at": 0.1
+    },
+    {
+     "kind": "clash",
+     "at": 1.2
+    }
+   ],
+   "text": "Ngày mùng bốn tháng sáu, máy bay ném bom bổ nhào Mỹ lao xuống đúng lúc. Akagi, Kaga, Soryu, rồi Hiryu lần lượt bốc cháy."
+  },
+  {
+   "name": "hiryu",
+   "type": "image",
+   "file": "media/hiryu.jpg",
+   "kb": {
+    "z": [
+     1.0,
+     1.2
+    ],
+    "fx": [
+     0.5,
+     0.55
+    ],
+    "fy": [
+     0.45,
+     0.4
+    ]
+   },
+   "title": "HIRYU",
+   "title_color": "orange",
+   "credit": "Hiryu né bom, 4/6/1942 · Không lực Lục quân Mỹ · Public domain · Wikimedia Commons",
+   "sfx": [
+    {
+     "kind": "whoosh",
+     "at": 0
+    },
+    {
+     "kind": "boom",
+     "at": 0.4
+    }
+   ],
+   "text": "Trớ trêu, kẻ đi phục kích lại sa bẫy. Phía Mỹ mất tàu sân bay Yorktown, còn Nhật mất cả bốn tàu sân bay hạm đội."
+  },
+  {
+   "name": "evidence",
+   "type": "photo",
+   "file": "media/mikuma.jpg",
+   "crop": [
+    0.05,
+    0.1,
+    0.95,
+    0.9
+   ],
+   "title": "Bằng chứng?",
+   "caption": "Tuần dương hạm Mikuma chìm · 1942",
+   "caption_at": "Mikuma",
+   "credit": "Tuần dương hạm Nhật Mikuma · US Navy · Public domain · Wikimedia Commons",
+   "text": "Bằng chứng? Ảnh Hải quân Mỹ chụp ngay trong trận Midway vẫn còn được lưu giữ. Đây là bước ngoặt của chiến tranh Thái Bình Dương."
+  },
+  {
+   "name": "outro",
+   "type": "outro",
+   "from": [
+    -177.4,
+    28.2
+   ],
+   "text": "Lịch sử thế giới qua bản đồ. Theo dõi Hinton Media để xem thêm."
+  }
+ ],
+ "spell": {
+  "Hinton": "hin tơn",
+  "Media": "mê đi a",
+  "Midway": "mit wey",
+  "Yamamoto": "da ma mô tô",
+  "Akagi": "a ka ghi",
+  "Kaga": "ka ga",
+  "Soryu": "so ri u",
+  "Hiryu": "hi ri u",
+  "Yorktown": "dóc thao n",
+  "Mikuma": "mi ku ma",
+  "JN": "giây en"
+ }
+}

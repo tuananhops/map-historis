@@ -1,0 +1,7 @@
+# TTS env (scripts/.venv-tts) — MMS-TTS facebook/mms-tts-vie
+torch
+transformers
+soundfile
+numpy
+faster-whisper   # tuỳ chọn (WHISPER=base|small); mặc định WHISPER=none
+# Render env: dùng scripts/toolkit/requirements.txt (scripts/toolkit/.venv)

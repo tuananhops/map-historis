@@ -1,0 +1,326 @@
+{
+ "title": "Manzikert 1071",
+ "brand": "HINTON MEDIA",
+ "music": "epic",
+ "duration_range": [
+  45,
+  66
+ ],
+ "media_dir": "",
+ "exclude_countries": [],
+ "sat_regions": {},
+ "map_credit": "Ảnh vệ tinh: NASA Blue Marble · ranh giới minh hoạ",
+ "scenes": [
+  {
+   "name": "hook",
+   "type": "intro",
+   "to": [
+    36.0,
+    39.0
+   ],
+   "R": 4800,
+   "title": "Bạn có biết?",
+   "text": "Bạn có biết? Năm 1071, một hoàng đế Đông La Mã đã bị bắt sống ngay trên chiến trường, và cánh cửa Anatolia mở toang cho người Thổ."
+  },
+  {
+   "name": "b0",
+   "type": "map",
+   "layers": [],
+   "cam": [
+    [
+     0,
+     37.5,
+     38.2,
+     5.1
+    ],
+    [
+     0.5,
+     36.75,
+     38.6,
+     9.0
+    ],
+    [
+     1,
+     36.0,
+     39.0,
+     10
+    ]
+   ],
+   "hud": {
+    "year": "1071",
+    "caption": "Hành quân",
+    "color": "blue"
+   },
+   "text": "Hoàng đế Byzantine Romanos đệ Tứ dẫn đại quân hàng chục nghìn người về phía đông, quyết chặn đứng những đợt tấn công của người Thổ Seljuk vào vùng biên giới Armenia.",
+   "start": "Hoàng đế Byzantine Romanos",
+   "armies": [
+    {
+     "from": [
+      29.0,
+      41.0
+     ],
+     "to": [
+      41.5,
+      39.1
+     ],
+     "at": 0.3,
+     "dur": 1.3,
+     "n": 40,
+     "color": "blue",
+     "seed": 0,
+     "bend": 0.12
+    }
+   ],
+   "pins": [
+    {
+     "ll": [
+      28.98,
+      41.01
+     ],
+     "at": 0.2,
+     "label": "Constantinople",
+     "color": "gold",
+     "dy": -62
+    }
+   ],
+   "sfx": [
+    {
+     "kind": "drum",
+     "at": 0.1
+    },
+    {
+     "kind": "whoosh",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "name": "b1",
+   "type": "map",
+   "layers": [],
+   "cam": [
+    [
+     0,
+     36.0,
+     39.0,
+     8.5
+    ],
+    [
+     0.5,
+     39.25,
+     39.05,
+     27.0
+    ],
+    [
+     1,
+     42.5,
+     39.1,
+     30
+    ]
+   ],
+   "hud": {
+    "year": "1071",
+    "caption": "Manzikert",
+    "color": "orange"
+   },
+   "text": "Gần pháo đài Manzikert, ông gặp quân của sultan Alp Arslan, chủ yếu là kỵ xạ cơ động, nhanh như gió và cực kỳ khó bắt kịp. Trong khi đó, một phần lớn quân Byzantine đã được tách ra, không kịp hội quân.",
+   "start": "Gần pháo đài Manzikert,",
+   "armies": [
+    {
+     "from": [
+      43.2,
+      38.9
+     ],
+     "to": [
+      42.6,
+      39.1
+     ],
+     "at": 0.3,
+     "dur": 1.3,
+     "n": 40,
+     "color": "red",
+     "seed": 5,
+     "bend": 0.12
+    }
+   ],
+   "pins": [
+    {
+     "ll": [
+      42.53,
+      39.14
+     ],
+     "at": 0.2,
+     "label": "Manzikert",
+     "color": "gold",
+     "dy": -62
+    }
+   ],
+   "sfx": [
+    {
+     "kind": "drum",
+     "at": 0.1
+    },
+    {
+     "kind": "whoosh",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "name": "b2",
+   "type": "map",
+   "layers": [],
+   "cam": [
+    [
+     0,
+     42.5,
+     39.1,
+     25.5
+    ],
+    [
+     0.5,
+     42.5,
+     39.1,
+     34.2
+    ],
+    [
+     1,
+     42.5,
+     39.1,
+     38
+    ]
+   ],
+   "hud": {
+    "year": "26/8/1071",
+    "caption": "Rối loạn",
+    "color": "red"
+   },
+   "text": "Kỵ xạ Seljuk giả rút lui, quấy rối liên tục suốt cả ngày. Khi Romanos ra lệnh lui quân về trại, cánh hậu quân của Andronikos Doukas bỏ đi sớm, khiến đội hình hỗn loạn rồi tan vỡ.",
+   "start": "Kỵ xạ Seljuk giả",
+   "armies": [
+    {
+     "from": [
+      42.6,
+      39.2
+     ],
+     "to": [
+      42.5,
+      39.1
+     ],
+     "at": 0.3,
+     "dur": 1.3,
+     "n": 40,
+     "color": "red",
+     "seed": 10,
+     "bend": 0.12
+    }
+   ],
+   "pins": [],
+   "sfx": [
+    {
+     "kind": "drum",
+     "at": 0.1
+    },
+    {
+     "kind": "whoosh",
+     "at": 0.5
+    }
+   ],
+   "xstamps": [
+    {
+     "ll": [
+      42.5,
+      39.1
+     ],
+     "at": 2.2
+    }
+   ]
+  },
+  {
+   "name": "b3",
+   "type": "map",
+   "layers": [],
+   "cam": [
+    [
+     0,
+     42.5,
+     39.1,
+     7.6499999999999995
+    ],
+    [
+     0.5,
+     37.75,
+     39.05,
+     8.1
+    ],
+    [
+     1,
+     33.0,
+     39.0,
+     9
+    ]
+   ],
+   "hud": {
+    "year": "Sau 1071",
+    "caption": "Anatolia",
+    "color": "red"
+   },
+   "text": "Romanos bị bắt sống, rồi được thả sau khi chấp nhận hoà ước. Trớ trêu, chính nội chiến Byzantine sau đó mới là đòn chí mạng, mở đường cho người Thổ tràn vào Anatolia, đặt nền móng cho Thổ Nhĩ Kỳ sau này.",
+   "start": "Romanos bị bắt sống",
+   "armies": [
+    {
+     "from": [
+      42.0,
+      39.0
+     ],
+     "to": [
+      33.0,
+      39.0
+     ],
+     "at": 0.3,
+     "dur": 1.3,
+     "n": 40,
+     "color": "red",
+     "seed": 15,
+     "bend": 0.12
+    }
+   ],
+   "pins": [],
+   "sfx": [
+    {
+     "kind": "drum",
+     "at": 0.1
+    },
+    {
+     "kind": "whoosh",
+     "at": 0.5
+    }
+   ]
+  },
+  {
+   "name": "outro",
+   "type": "outro",
+   "from": [
+    33.0,
+    39.0
+   ],
+   "start": "Lịch sử thế giới",
+   "text": "Lịch sử thế giới qua bản đồ. Theo dõi Hinton Media để xem thêm những trận đánh thay đổi lịch sử."
+  }
+ ],
+ "spell": {
+  "Hinton": "hin tơn",
+  "Media": "mê đi a",
+  "TCN": "trước công nguyên",
+  "Byzantine": "bi dăng tin",
+  "Romanos": "rô ma nốt",
+  "Seljuk": "xen giúc",
+  "Manzikert": "man di kéc",
+  "Alp": "anp",
+  "Arslan": "ác xlan",
+  "Anatolia": "a na tô li a",
+  "Constantinople": "công xtăng ti nốp"
+ },
+ "_words": 118,
+ "_source": "gen_queue.py (map-only, facts: standard encyclopedic accounts)"
+}
